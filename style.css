@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap');
+
 :root {
     --white: #fff;
     --black: #212121;
@@ -5,6 +7,10 @@
     --primary: #ffc107;
     --secondary: #0097a7;
     --pfontsize: 3.8rem;
+}
+
+.body {
+    font-family: 'Krub', sans-serif;
 }
 
 .titulo {
