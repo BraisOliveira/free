@@ -1,0 +1,14 @@
+:root {
+    --white: #fff;
+    --black: #212121;
+    --grai: #757575;
+    --primary: #ffc107;
+    --secondary: #0097a7;
+    --pfontsize: 3.8rem;
+}
+
+.titulo {
+    text-align: center;
+    font-size: var(--pfontsize);
+}
+
