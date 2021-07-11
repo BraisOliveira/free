@@ -9,6 +9,8 @@
     --pfontsize: 3.8rem;
 }
 
+/*MODULES*/
+
 .body {
     font-family: 'Krub', sans-serif;
     background-color: red;
@@ -22,13 +24,22 @@
   font-size: 2rem;
 }
 
+.masternav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.masternav a {
+  color: var(--white);
+  text-decoration: none;
+}
+
 .container {
   width: 90rem;
   margin: 0 auto;
 }
 
+/*UTILITIES*/
 .nav-bg {
   background-color: var(--secondary);
-}
-.masternav {
 }
