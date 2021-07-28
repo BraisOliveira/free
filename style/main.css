@@ -154,5 +154,27 @@ h1, h2, h3 {
     display: grid;
     grid: 33.33% 33.33% 33.33% / 33.33% 33.33% 33.33%;
     grid-column-gap: 1.5rem;
+    padding: 2rem;
   }
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+}
+.service h2 {color: var(--secondary)}
+.service p {
+  line-height: 2;
+  text-align: center;
+}
+.service .icons {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: space-evenly;
+  -ms-align-items: center;
+  align-items: center;
 }
