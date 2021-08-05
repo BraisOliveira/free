@@ -150,9 +150,9 @@ h1, h2, h3 {
 }
 
 @media (min-width: 768px) {
-  .services {
+  .servicios {
     display: grid;
-    grid: 33.33% 33.33% 33.33% / 33.33% 33.33% 33.33%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     grid-column-gap: 1.5rem;
     padding: 2rem;
   }
@@ -168,9 +168,10 @@ h1, h2, h3 {
   line-height: 2;
   text-align: center;
 }
+
 .service .icons {
-  height: 15rem;
   width: 15rem;
+  height: 15rem;
   border-radius: 50%;
   background-color: var(--primary);
   display: flex;
