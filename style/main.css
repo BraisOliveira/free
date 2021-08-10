@@ -80,8 +80,12 @@ h1, h2, h3 {
   text-transform: uppercase;
   font-weight: 700;
   border-radius: .5rem;
-  width: 80%;
+  width: 90%;
   text-align: center;
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
 }
 
 .hero {
@@ -123,12 +127,6 @@ h1, h2, h3 {
   border-radius: 1rem;
 }
 
-
-/*UTILITIES*/
-
-.nav-bg {
-  background-color: var(--secondary);
-}
 
 /*RESPONSIVITY
 480 smart phone
@@ -209,9 +207,36 @@ legend {
 }
 
 .field label {
-  display: block;
-  margin-bottom: 0.5rem;
   font-weight: 700;
-  font-size: ;
   color: var(--white);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.field input[type="text"] ,
+.field input[type="tel"] ,
+.field input[type="email"] ,
+.field textarea {
+   width: 100%;
+   padding: 1.5rem;
+   border-radius: .5rem;
+}
+
+
+/*UTILITIES*/
+.unav-bg {
+  background-color: var(--secondary);
+}
+
+.uw-small-100 {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .uw-small-100 {
+    width: auto;
+  }
+}
+
+.uright-align {
+  display: flex;
+  justify-content: flex-end;
 }
