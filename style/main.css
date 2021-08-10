@@ -11,10 +11,17 @@
 
 /*MODULES*/
 
-
 html {
   font-size: 62.5%; /* => 1rem == 10px*/
   box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}
+/*Scroll Snap*/
+.hero ,
+.servicios ,
+.form {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 
 *, *::before, *::after {
@@ -220,7 +227,6 @@ legend {
    padding: 1.5rem;
    border-radius: .5rem;
 }
-
 
 /*UTILITIES*/
 .unav-bg {
